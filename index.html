@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404News</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="news.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <h1><a href="index.html" style="color: #FFFFFF; text-decoration: none;">404News</a></h1>
+            </div>
+
+            <div class="main-menu"> 
+                <ul class="menu">
+                    <li><a href="world.html">World</a></li>
+                    <li><a href="politics.html">Politics</a></li>
+                    <li><a href="business.html">Business</a></li>
+                    <li><a href="health.html">Health</a></li>
+                    <li><a href="sports.html">Sports</a></li>
+                    <li><a href="weather.html">Weather</a></li>
+                </ul>
+            </div>
+
+            <div class="search">
+                <i class="fas fa-search" id="searchIcon"></i>
+                <input type="text" id="searchInput" placeholder="Search 404News...">
+            </div>
+        </div>   
+    </header>
+
+    <section class="container">
+        <div class="main-news">
+            <img src="https://www.worldfinance.com/wp-content/uploads/2017/01/Davos2017amountaintoclimb_feature.jpg" alt="News Image"/>
+            <h1>Global leaders meet to discuss economic challenges.</h1>
+            <p>
+                World leaders gathered today to address ongoing economic issues, international cooperation, and future development strategies. The meeting highlighted global unity amid uncertainty.
+                <a href="index.html" class="read-more">Read more →</a>
+            </p>
+        </div>
+
+        <aside class="latest-news">     
+            <h2>Latest News</h2>
+            
+            <div class="latest-item">
+                <a href="#">🧾 Elections bring major changes in parliament!</a>
+            </div>
+            <div class="latest-item">      
+                <a href="#">🧾 Stock markets react to new business policies.</a>
+            </div>
+            <div class="latest-item">
+                <a href="#">🧾 Health experts warn about seasonal viruses!</a>
+            </div>
+            <div class="latest-item">
+                <a href="#">🧾 Senate Passes Historic Voting Reform Bill.</a>
+            </div>
+            <div class="latest-item">
+                <a href="#">🧾 Earthquake Strikes Coastal City, Thousands Evacuated!</a>
+            </div>
+            <div class="latest-item">
+                <a href="#">🧾 Researchers Announce Breakthrough in Cancer Treatment!</a>
+            </div>
+            <div class="latest-item">
+                <a href="#">🧾 Just In: Major Policy Change Announced!</a>
+            </div>
+            <div class="latest-item">
+                <a href="#">🧾 Oil Prices Rise as Supply Concerns Grow.</a>
+            </div>
+            
+        </aside>
+    </section>
+
+    <section class="container">
+        <div class="sub-news">
+            <div class="sub-item">
+                <img src="https://www.pymnts.com/wp-content/uploads/2024/06/AI-investments-artificial-intelligence.jpg?w=457" alt="AI Investment">
+                <h3>Technology companies announce major AI investments</h3>
+            </div>
+
+            <div class="sub-item">
+                <img src="https://i.guim.co.uk/img/media/16c81883afc389a8c3d20b41a4464ddcaccec2ad/169_457_1589_954/master/1589.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=6fe7121b809ef1648c27f9ff46eeb1fc" alt="Climate Summit">
+                <h3>Climate summit focuses on renewable energy goals</h3>
+            </div>
+
+            <div class="sub-item">
+                <img src="https://skift.com/wp-content/uploads/2024/01/49607461472_6792bbf0aa_k.jpg" alt="Sports Tourism">
+                <h3>International sports events boost tourism</h3>
+            </div>
+        </div>
+
+        <div class="latest-sub-news">
+            <div class="latest-sub-item">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1DdtQt.img?w=768&h=511&m=6" alt="Airport Security">
+                <p>New security measures introduced at major airports</p>
+            </div>
+
+            <div class="latest-sub-item">
+                <img src="https://www.salon.com/app/uploads/2023/11/florida_waves_buildings_1333283465.jpg" alt="Sea Levels">
+                <p>Scientists warn about rising sea levels worldwide</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="logo">
+            <h1><a href="news.html" style="color: #FFFFFF; text-decoration: none;">404News</a></h1>
+        </div>
+        <div class="footer-follow">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i> Facebook</a>
+            <a href="https://www.x.com/"><i class="fab fa-x-twitter"></i> X</a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i> Instagram</a>
+        </div>
+
+        <p>© 2025 404News Website | Educational Project</p>
+    </footer>
+    <script>
+        const searchIcon = document.getElementById("searchIcon");
+        const searchInput = document.getElementById("searchInput");
+
+        searchIcon.addEventListener("click", () => {
+            if (searchInput.style.display === "block") {
+                searchInput.style.display = "none";
+            } else {
+                searchInput.style.display = "block";
+                searchInput.focus();
+            }
+        });
+    </script>
+</body>
+</html>
